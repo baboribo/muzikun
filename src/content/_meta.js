@@ -4,11 +4,7 @@ export default {
         type: 'page'
     },
     docs: {
-        title: 'Docs',
+        title: '여러가지',
         type: 'page'
     },
-    anys: {
-        title: 'Anys',
-        type: 'page'
-    }
 }
