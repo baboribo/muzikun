@@ -1,7 +1,8 @@
 export default {
     'upbeat': '', // 0
-    'uplifting': '', // 1
-    'energetic': '', // 2
-    'party': '', // 3
-    'motivating': '' // 4
+    'exciting': "", // 1
+    'uplifting': '', // 2
+    'energetic': '', // 3
+    'party': '', // 4
+    'motivating': '' // 5
 }
