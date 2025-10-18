@@ -1,0 +1,44 @@
+import { Tabs } from 'nextra/components'
+
+# 음악
+## 예시
+<Tabs items={['유튜브', '음악']} defaultIndex="0">
+  <Tabs.Tab>
+    | 태그 | 텍스트 | 비고 |
+    | :--- | :--------- | :--- |
+    | t | やんなっちゃう！ / 重音テトSV (feel empty! / Kasane Teto SV) |  |
+    | u | ミ瑞 | 미미즈 |
+    | remixed | 0 | none |
+    | sampling | 0 | none |
+    | g | JPOP, 일렉트로닉 |  |
+    | m | *활기찬 *신나는 *받아들이는 *불안한 *에픽 *급박한 | "Unwelcome School"과 느낌 유사 |
+  </Tabs.Tab>
+  <Tabs.Tab>
+    | 태그 | 텍스트 | 비고 |
+    | :--- | :--------- | :--- |
+    | t | O-EDO SOPRANO | お江戸ソプラノ |
+    | u | pomodorosa |  |
+    | remixed | 0 | none |
+    | sampling | 0 | none |
+    | g | 보사노바, 일본 애니메이션, 포크 | 보사노바 느낌이 강했음 |
+    | m | *차분한 *편안한 *부드러운 *멜랑콜릭 *로맨틱 *희망적 *감상적 |  |
+  </Tabs.Tab>
+</Tabs>
+## 각 항목 태그
+| 태그 | 제목 | 설명 | 비고 |
+| :--- | :------- | :------------ | :--- |
+| t | 음악/영상 타이틀 | 음악 또는 영상의 제목을 적어주세요 |
+| u | 아티스트/업로더 | 해당 콘텐츠를 올린이의 닉네임/이름을 적어주세요 |
+| remixed | 리믹스됐나요? | "`0`: 원곡임, `1`: 리믹스됨" 둘 중 한 값을 표기하세요 | 비고에는 원곡에서 가져와 사용된 소재를 적으세요. 없을 경우 `none` 표기합니다. |
+| sampling | 샘플링 | "`0`: 원곡임, `1`: 샘플링됨" 샘플링을 한 음악인가요? | 비고에는 사용된 샘플링 소재를 적으세요. 없을 경우 `none` 표기합니다. |
+| g | 장르 | 해당 음악의 알맞거나 근접하는 장르를 적어주세요 |
+| m | 분위기 | 해당 음악에 맞는 분위기를 찾아 적어주세요 |
+## 분위기 목록
+| 그룹          | 설명                          | 키워드 예시 (한국어/영어 병기) |
+|---------------|-------------------------------|-------------------------------|
+| 활기찬/에너지 | 에너지 넘치고 긍정적, 운동/파티에 딱 | 활기찬 (Energetic), 댄스 (Dance), 유쾌한 (Upbeat), 긍정적 (Uplifting), 파티 (Party), 동기부여 (Motivating), 열정적 (Exuberant), 신나는 (Bold), 안테믹 (Anthemic), 댄스 가능한 (Danceable), 강렬한 (Hard), 모험적 (Adventurous), 액션 (Action) |
+| 편안한/릴렉스 | 여유롭고 차분한, 공부/휴식에 좋음 | 차분한 (Calm), 편안한 (Relaxed), 몽환적 (Dreamy), 부드러운 (Mellow), 평화로운 (Peaceful), 가벼운 (Laid Back), 공기 같은 (Airy), 받아들이는 (Accepting), 미니멀 (Minimal), 서정적인 (Lyrical), 주변음 (Ambient) |
+| 슬픈/우울한   | 감상적이고 감정적, 비 오는 날에 | 우울한 (Sad), 멜랑콜릭 (Melancholic), 슬픈 (Anguished), 불안한 (Anxious), 화난 (Angry), 고독한 (Lonely), 애절한 (Heartbreaking), 어두운 (Dark), 감정적 (Emotional) |
+| 긴장/서스펜스 | 스릴 있고 긴장감, 영화 OST처럼 | 긴장감 (Suspense), 공격적 (Aggressive), 급박한 (Frantic), 모험적 (Adventurous), 액션 (Action), 에픽 (Epic), 위협적 (Menacing), 다채로운 (Eclectic) |
+| 행복/기쁨     | 밝고 즐거운, 데이트나 산책에 | 행복한 (Happy), 환희 (Euphoric), 기쁨 (Joyful), 장난기 (Quirky), 천사 같은 (Angelic), 밝은 (Cheerful), 캐주얼 (Casual), 매혹적인 (Alluring), 마법 같은 (Magical) |
+| 기타/특수     | 추상적이나 독특한 분위기       | 추상적 (Abstract), 주변음 (Ambient), 매혹적인 (Alluring), 애니메이티드 (Animated), 러닝 (Running), 애니메이티드 (Animated) |
